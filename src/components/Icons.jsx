@@ -1,5 +1,5 @@
 import React from 'react';
-import windIconSrc from '../assets/wind.png';
+import windIconSrc from '../assets/Wind.png';
 import humidityIcon from '../assets/humidity.png';
 import visibilityIcon from '../assets/visibility.png';
 import sunriseIcon from '../assets/sunrise.png';
