@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+/* Custom Animations */
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-icon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.animate-fade-in {
+  animation: fade-in 2s ease-out;
+}
+
+.powerful-pulse {
+  animation: pulse-icon 5s infinite;
+}
+
+.svg-hover:hover {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+  transition: all 0.3s ease-in-out;
+}
